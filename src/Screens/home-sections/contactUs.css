@@ -1,0 +1,107 @@
+.contactUs{
+    padding: 10px;
+}
+
+.get-in-touch{
+    display: flex;
+    justify-content: center;
+    font-weight: bold;
+    font-size: 30px;
+    color: rgb(134, 133, 133);
+    margin: 40px auto 2px;
+    align-self: center;
+}
+
+
+.sub-in-touch{
+    display: flex;
+    justify-content: center;
+    font-weight: 400;
+    font-size: 18px;
+    color: rgb(88, 87, 87);
+    margin: 5px auto 50px 0px;
+    align-self: center;
+}
+
+
+.email_name{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    /* grid-auto-flow: column; */
+    /* grid-template-columns: 1fr 1fr; */
+}
+
+
+.message{
+    display: flex;
+    /* justify-content: s; */
+
+}
+
+
+.my-input{
+    -moz-border-radius:30px;
+    -webkit-border-radius: 30px;
+    border-radius: 30px;
+    border: 2px solid #c9c9c9;
+    padding: 15px 10px;
+    color: #7120F6;
+    margin: 10px 1.5%;
+    /* margin: auto; */
+    width: 30%;
+    /* This removes extra square bracket in chrome browser*/
+    outline: none;
+}
+
+
+
+.message-input{
+    -moz-border-radius:30px;
+    -webkit-border-radius: 30px;
+    border-radius: 30px;
+    border: 2px solid #c9c9c9;
+    padding: 30px 10px;
+    color: #7120F6;
+    /* margin: 10px 30px; */
+    margin: 30px auto;
+    width: 65%;
+    /* This removes extra square bracket in chrome browser*/
+    outline: none;
+}
+
+.send{
+    display: flex;
+}
+.send-button{
+    background-color: #7120F6;
+    /* width: 64%; */
+    margin: auto;
+    padding: 10px 100px;
+    text-align: center;
+    font-size: 20px;
+    font-weight: bold;
+    color: white;
+    border-radius: 50px;
+    border: solid 2px #7120F6;
+    display: inline-block;
+}
+
+
+.send-button:hover{
+    background-color: white;
+    color:#7120F6;
+}
+.paddown{
+    height: 100px;
+}
+
+
+@media all and  (max-width:450px){
+    .my-input{
+        width: 80%;
+    }
+    .message-input{
+        width: 80%;
+    }
+}

@@ -1,0 +1,101 @@
+
+.describeGrid{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    justify-content: center;
+    grid-auto-columns: minmax(60vh,auto);
+}
+
+.describe-item-image{
+    width: 50vw;
+    background-image: url("../../assets/luca-bravo-9l_326FISzk-unsplash.jpg");
+    /* background-image: url("../../assets/widget-source-widgets-pic.png"); */
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+
+.describe-item-text{
+    padding: 50px 0px;
+    background-color: black;
+    opacity: .9;
+    width: 50vw;
+}
+
+.about{
+    margin: 40px 40px;
+    color: white;
+    font-size: 22px;
+}
+
+.large-text{
+    margin: 50px 40px;
+    color: white;
+    font-size: 30px; 
+    font-weight: bold;   
+}
+
+.medium-text{
+    margin: 50px 40px;
+    color: white;
+    opacity: .8;
+    font-size: 24px;
+}
+.button{
+    display: inline-block;
+    margin: 40px;
+    padding: 15px 20px;
+    background-color: #7120F6;
+    border-radius: 30px;
+    color: white;
+    font-weight: 500;
+}
+
+.button:hover{
+    background-color: whitesmoke;
+    color: #7120F6;  
+}
+
+@media all and (max-width: 550px) {
+    .describeGrid{
+        display: grid;
+        grid-template-columns: 1fr;
+        justify-content: center;
+        grid-auto-columns: minmax(60vh,auto);
+    } 
+
+
+    .describe-item-image{
+        width: 100vw;
+        height: 500px;
+        /* background-image: url("../../assets/widget-source-widgets-pic.png"); */
+        background-image: url("../../assets/luca-bravo-9l_326FISzk-unsplash.jpg");
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
+    }
+
+
+    .describe-item-text{
+        padding: 5px 0px;
+        background-color: black;
+        opacity: .9;
+        width: 100vw;
+    }
+
+
+    .large-text{
+        margin: 50px 40px;
+        color: white;
+        font-size: 22px; 
+        font-weight: bold;   
+    }
+    
+    .medium-text{
+        margin: 50px 40px;
+        color: white;
+        opacity: .8;
+        font-size: 19px;
+    }
+}

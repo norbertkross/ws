@@ -1,0 +1,80 @@
+
+.quoteBody{
+    margin-top: 50px;
+    margin-bottom: 50px;
+    display: grid;
+    grid-auto-columns: minmax(60vh,auto);
+    background-color: teal;
+    background-image: url("../../assets/widget-source-widgets-pic.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+
+.darkBackground{
+    width: 100vw;
+    padding-top: 60px;
+    padding-bottom: 60px;
+    background-color: black;
+    opacity: .76;
+    /* opacity: .86; */
+}
+
+
+.quote-frame-top{
+    display: grid;
+    grid-template-columns: 1fr;
+    margin: 0px 5%;
+}
+
+
+
+.quote{
+    margin: auto;
+    width: 90vw;
+    justify-content: center;
+    color: white;
+    font-size: 30px;
+}
+
+
+.quotation-symbol{
+    margin: auto;
+    background-image: url("../../assets/Quote Right_50px.png");
+    background-repeat: no-repeat;
+    background-size: contain;
+    height: 35px;
+    width: 35px;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.icon1:hover,.icon2:hover{
+    background-color: #7120F6;
+    transition-duration: 500ms;
+    transition-timing-function: ease-out;
+}
+
+
+.who-said-so{
+    margin: auto;
+    width: 200px;
+}
+
+
+
+.name{
+    font-size: 18px;
+    margin: auto;
+    font-weight: 800;
+
+}
+
+.position{
+    font-size: 16px;
+    margin: auto;
+    font-weight: 500;
+
+}

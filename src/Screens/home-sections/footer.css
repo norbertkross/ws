@@ -1,0 +1,52 @@
+.footer{
+    padding: 100px 20px;
+    display: flex;
+    flex-wrap: wrap;
+    background-color: #7120F6;
+    align-items: center;
+    /* height: 300px; */
+    justify-content: space-around;
+}
+
+
+.footer-logo{
+    width: 80px;
+    height: 80px;
+    background-image: url('../../assets/logo.svg');
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;  
+}
+
+.footer-item{
+    color: white;
+}
+
+
+.footer-links{
+    display: flex;
+    justify-content: space-around;
+    margin: 0px 50px;
+
+}
+
+/* .media-item{
+    height: 50px;
+    width: 30px;
+    background-color: red;
+    border-radius: 50%;
+    padding: 0px 10px ;
+    margin: 0px 2px ;
+    background-image: url("../../assets/brooke.jpg");
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+    transition-duration: 300ms;
+
+} */
+
+
+.media-item:hover{
+    background-color: #d1d1d3;
+    transition-duration: 300ms;
+}
